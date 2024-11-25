@@ -9,7 +9,7 @@
         <h1 class="text-center my-3">Учет товаров</h1>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Название</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" class="form-control" id="exampleFormControlInput1">
         </div>
         <div class="mb-3">
           <label for="date" class="form-label">Дата добавления</label>
@@ -42,7 +42,10 @@
       </div>
     </div>
   </div>
-</div>
+    </div>
+    <div class="col my-4">
+      <h3 class="text-end">Общая сумма товаров: $1000000</h3>
+    </div>
   </div>
   </template>
 
